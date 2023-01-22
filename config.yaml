@@ -1,5 +1,5 @@
 baseurl: /
-title: Mainroad
+title: Renee's Portfolio
 languageCode: en-us
 paginate: '10'
 theme: Mainroad
@@ -7,9 +7,8 @@ disqusShortname: ''
 googleAnalytics: ''
 Author:
   avatar: img/avatar.png
-  bio: John Doe's true identity is unknown. Maybe he is a successful blogger or writer.
-    Nobody knows it.
-  name: John Doe
+  bio: I am a fourth year student completing a combined Houours in Cognitive Science of Language and Communications Studies
+  name: Renee Boney
 Params:
   authorbox: yes
   description: John Doe's Personal blog about everything
@@ -37,3 +36,8 @@ Params:
   widgets:
     recent_num: 5
     tags_counter: no
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
