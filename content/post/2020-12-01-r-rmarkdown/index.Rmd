@@ -34,4 +34,5 @@ pie(
   col = c('#0292D8', '#F7EA39', '#C4B632'),
   init.angle = -50, border = NA
 )
+summary(mtcars)
 ```
