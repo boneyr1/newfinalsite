@@ -1,0 +1,12 @@
+---
+title: "description"
+author: "renee"
+date: "25/01/2023"
+output: html_document
+---
+
+The audience of my portfolio is future employers, since I am considering the fields of speech pathology, audiology and ABA therapy
+
+The goal of my portfolio to provide resources to assist with speech language pathology
+
+I would like to include programs that will help with creating plans for patients

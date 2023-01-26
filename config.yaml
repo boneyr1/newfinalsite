@@ -5,8 +5,7 @@ paginate: '10'
 theme: Mainroad
 disqusShortname: ''
 googleAnalytics: ''
-Author: Renee
-  avatar: img/avatar.png
+Author:
   bio: I am a fourth year student completing a combined Houours in Cognitive Science of Language and Communications Studies
   name: Renee Boney
 Params:
@@ -44,4 +43,8 @@ markup:
     renderer:
       unsafe: true
       
-  
+menu:
+  main:
+      - name: Description
+        url: /description/
+        
