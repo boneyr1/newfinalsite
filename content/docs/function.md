@@ -1,7 +1,7 @@
 ---
 authorbox: false
 date: "2022-01-24T14:00:00.000Z"
-description: Browse this page to learn about the function I create 
+description: Browse this page to learn about the function I created 
 menu:
   main:
     name: Function
