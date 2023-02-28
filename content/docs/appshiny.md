@@ -8,7 +8,7 @@ pager: false
 sidebar: false
 tags:
 - Installation
-title: Getting started
+title: ShinyApp
 weight: 1
 ---
 
