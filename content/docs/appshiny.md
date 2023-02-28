@@ -14,7 +14,8 @@ weight: 1
 
 Welcome to my ShinyApp. I created a user-interactive website designed to assist those in linguistic-related fields to track the progression of their patients. For instance, ABA therapists need to track how many words their patients are learning, and if they upload their clients information as a CSV file, they can organize and graph their data.
 
-Link to my ShinyApp:
+Link to my ShinyApp: https://reneeshinyapp.shinyapps.io/NewAssignment5/   
+ 
 
 
 
