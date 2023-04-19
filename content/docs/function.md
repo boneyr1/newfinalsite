@@ -11,5 +11,9 @@ title: Function
 weight: 3
 ---
 
-Browse this page to learn about the function I created to help linguists 
+I created a function in R Studio to help linguists find the number preposition in a string. 
+
+All you have to do is make your vector into a string and input it into the function.
+
+Check out the details here: 
 
