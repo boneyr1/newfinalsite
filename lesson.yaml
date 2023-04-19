@@ -1,0 +1,158 @@
+- Class: meta
+  Course: Stringr Course
+  Lesson: Stringr Lesson
+  Author: Renee 
+  Type: Standard
+  Organization: McMaster University 
+  Version: 2.4.5
+
+- Class: text
+  Output: Welcome to my course all about how to use the Stringr() Package in R! This package will be very helpful for researchers looking for specfic words, phrases or letters in their datasets. Stringr() makes working with strings in R super easy!
+  
+- Class: text
+  Output: Let's start off by explaining what a string is! In R, a string is a character or characters that are enclosed inside single or double quotes.
+ 
+- Class: text_question
+  Output: Is this a string? ('Hello, it is a wonderful day!') Type Yes or No
+  CorrectAnswer: ‘Yes’
+  AnswerTests: val_matches('[Yy]es')
+  Hint: Look to see if it is enclosed in quotations! 
+  
+- Class: text
+  Output: You did great! Now that we know what a string is, let's learn about what a function is. A function performs tasks in r studio and are followed by ().
+  
+- Class: text_question
+  Output: Is this a function? str_subset(). Type Yes or No
+  CorrectAnswer: ‘Yes’
+  AnswerTests: val_matches('[Yy]es')
+  Hint: Look to see there are enclosed parentheses! 
+  
+- Class: text
+  Output: Now that you're a pro in functions and strings, lets learn about what a regular expression is. A regular expression is a pattern that describes a set of strings/text. For example, the regular expression "[aeiou]" matches any single character that is a vowel.
+  
+- Class: text
+  Output: All functions in stringr start with str_ and take a vector of strings as the first argument. Inputs into functions are called arguments. 
+
+- Class: text
+  Output: Let's learn how to use a stringr function! All stringr functions takes a vector of strings as the first argument. In str_subset(), the second argument is the pattern youre looking for and returns the pattern. It appears as str_subset(x,pattern)
+  
+- Class: mult_question
+  Output: What does str_subset() return?
+  AnswerChoices: word containing the pattern;the pattern;logical vector;number of instances of the pattern in each word
+  CorrectAnswer: word containing the pattern
+  AnswerTests: omnitest(correctVal= 'word containing the pattern')
+  Hint: Think about patterns!
+  
+- Class: mult_question
+  Output: If we work with a vector called dogs and use the function str_subset(dogs, "ing$"), what will it return?
+  AnswerChoices: every word in the vector;all words ending in -ing; only -ing; the number of times -ing is in the vector
+  CorrectAnswer: all words ending in -ing
+  AnswerTests: omnitest(correctVal= 'all words ending in -ing')
+  Hint: str_subset() returns the words containing the patterns! $ means ending 
+  
+- Class: mult_question
+  Output: What function is used to get the length of a string in the stringr package?
+  AnswerChoices: str_length();string_length();length_str();len_string()
+  CorrectAnswer: str_length()
+  AnswerTests: omnitest(correctVal='str_length()') 
+  Hint: Remember what functions in the stringr package start with!
+  
+- Class: text
+  Output: Lets learn about str_length(). str_length() takes on a vector as the argument and returns a numeric value of the length of the vector. We will make a vector, x = ('Hello, world')
+  
+- Class: exact_question
+  Output: If we use str_length(x), what is the output?
+  CorrectAnswer: 12
+  AnswerTests: omnitest(correctVal=12)
+  Hint: Count the spaces and commas! 
+  
+- Class: text
+  Output: The next function looks like str_count(x,pattern). str_count() counts the number of patterns in the vector. We will make a vector x <- c("why", "video", "cross", "extra", "deal", "authority") 
+  
+- Class: mult_question
+  Output: What function is the correct function to find the number of vowels?
+  AnswerChoices: str_count(x,'[aeiou]');str_count(x,[aeiou]);str_count('[aeiou]',x);str_count(x,aeiou)
+  CorrectAnswer: str_count(x,'[aeiou]')
+  AnswerTests: omnitest(correctVal="str_count(x,'[aeiou]')") 
+  Hint: Remember what makes a string and the order of arguments
+  
+- Class: exact_question
+  Output: If we run str_count(x,'[aeiou]'), what is the output for the string 'video'
+  CorrectAnswer: 3
+  AnswerTests: omnitest(correctVal=3)
+  Hint: Look at where video is placed in the vector!  
+
+- Class: text
+  Output: The next function looks like str_detect(x, pattern) tells you if there’s any match to the pattern. It returns a logical vector, TRUE if there is a match and FALSE if there is no match
+
+
+- Class: mult_question
+  Output: What function can help us see if the vector x has any vowels?
+  AnswerChoices: str_detect(x,'[aeiou]');str_detect(x,[aeiou]);str_detect('[aeiou]',x);str_detect(x,aeiou)
+  CorrectAnswer: str_detect(x,'[aeiou]')
+  AnswerTests: omnitest(correctVal="str_detect(x,'[aeiou]')") 
+  Hint: Remember what makes a string and the order of arguments
+  
+
+- Class: text_question
+  Output: If we run str_detect(x,'[aeiou]'), what is the output for the string 'why'
+  CorrectAnswer: ‘FALSE’
+  AnswerTests: val_matches('[FALSEfalse]')
+  Hint: Remember it returns a logical vector
+
+
+- Class: text
+  Output: The next function looks like str_match(x, pattern) tells you if there’s any match to the pattern. It returns a matrix with 2 columns. The first column shows the first match found in each string in the vector. The second column shows more matches. It will return NA if there is no match
+
+- Class: mult_question
+  Output: What function can help us see if the vector x has any vowels?
+  AnswerChoices: str_match(x,'[aeiou]');str_match(x,[aeiou]);str_match('[aeiou]',x);str_match(x,aeiou)
+  CorrectAnswer: str_match(x,'[aeiou]')
+  AnswerTests: omnitest(correctVal="str_match(x,'[aeiou]')") 
+  Hint: Remember what makes a string and the order of arguments
+  
+- Class: text_question
+  Output: If we run str_match(x,'[aeiou]'), what is the output for the string 'cross'
+  CorrectAnswer: ‘o’
+  AnswerTests: val_matches('[Oo]')
+  Hint: Remember it returns the first match
+
+- Class: mult_question
+  Output: What does the 'NA' mean?
+  AnswerChoices: the answer is invalid;the word has a vowels; the word has no vowels
+  CorrectAnswer: the word has no vowels
+  AnswerTests: omnitest(correctVal= 'the word has no vowels')
+  Hint: Does why have a vowel
+  
+- Class: text
+  Output: The next function looks like str_extract(x, pattern) extracts the text of the match. It returns the first pattern match found in each string, as a vector.
+ 
+- Class: mult_question
+  Output: What function can help us see if the vector x has any vowels?
+  AnswerChoices: str_extract(x,'[aeiou]');str_extract(x,[aeiou]);str_extract('[aeiou]',x);str_extract(x,aeiou)
+  CorrectAnswer: str_extract(x,'[aeiou]')
+  AnswerTests: omnitest(correctVal="str_extract(x,'[aeiou]')") 
+  Hint: Remember what makes a string and the order of arguments
+
+- Class: mult_question
+  Output: Why does str_extract() return only one character for each string/word?
+  AnswerChoices: each word only has one vowel;returns only the first match; there's not enough space for all vowels
+  CorrectAnswer: returns only the first match
+  AnswerTests: omnitest(correctVal= 'returns only the first match')
+  Hint: Returns a match
+  
+- Class: mult_question
+  Output: What's the difference between str_extract() and str_match()
+  AnswerChoices: str_match() returns a matrix and str_extract() returns a vector;there is no difference; str_match() returns a vector and str_extract() returns a matrix
+  CorrectAnswer: returns only the first match
+  AnswerTests: omnitest(correctVal= 'str_match() returns a matrix and str_extract() returns a vector')
+  Hint: Remember what each function returns
+  
+- Class: text
+  Output: The Stringr package is beneficial for linguists because linguists often pattern-match over texts/corpora in programming. There's a lot more to learn to get even more efficient with Stringr
+  
+- Class: video
+  Output: Here's a cheatsheet on how to use stringr 
+  VideoLink: https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_strings.pdf
+  
+
