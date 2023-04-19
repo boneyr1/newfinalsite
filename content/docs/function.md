@@ -15,5 +15,5 @@ I created a function in R Studio to help linguists find the number preposition i
 
 All you have to do is make your vector into a string and input it into the function.
 
-Check out the details here: 
+Download my function here: 
 
