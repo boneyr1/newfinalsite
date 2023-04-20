@@ -7,10 +7,6 @@ lead: Check Your Patient's Progress
 menu: main
 pager: false
 sidebar: false
-thumbnail:
-  src: img/placeholder.png
-  visibility:
-  - list
 title: ShinyApp
 weight: 2
 ---
