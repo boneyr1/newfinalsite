@@ -15,5 +15,5 @@ I created a function in R Studio to help linguists find the number preposition's
 
 All you have to do is make your vector into a string and input it into the function.
 
-Check out my function here: https://github.com/boneyr1/newfinalsite/blob/219159f21e3d6994274ecb52f56d50a95e6fccbf/Preposition%20Counter.R 
+Check out my function here: file:///Users/renb123/Desktop/AdvancedProgramming/PrepCounter.html 
 
