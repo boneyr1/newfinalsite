@@ -7,7 +7,7 @@ output: html_document
 
 The audience of my portfolio is future employers, since I am considering the fields of speech pathology, audiology, linguistics research and ABA therapy
 
-The goal of my portfolio to provide resources to assist with these fields. As a student researcher and reserch assistant at McMaster, the Stringr Lesson and Preposition Counter can be of great use.
+The goal of my portfolio to provide resources to assist with these fields. As a student researcher and research assistant at McMaster, the Stringr Lesson and Preposition Counter can be of great use.
 
 I included programs that will help with creating plans for patients. For instance, the Patient Progress ShinyApp will allow speech pathologists or audiologists check their patient's progress after treatment.
 
