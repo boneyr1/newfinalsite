@@ -23,5 +23,4 @@
 ### Copy and paste this into a new tab!
 ### You can install the course from the .swc file by downloading the file and then using the install_course() function in swirl
 
-
-![Main]https://www.google.com/url?sa=i&url=https%3A%2F%2Fallthingslinguistic.com%2Fpost%2F157753942691%2Faphasia-the-disorder-that-makes-you-lose-your&psig=AOvVaw3halNUbvA86A9r_DDKvQVz&ust=1682036827857000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDEgtCZt_4CFQAAAAAdAAAAABAJ 
+![Main](https://media.giphy.com/media/wKoPDy4mp8Lr6IJ9ce/giphy.gif)
