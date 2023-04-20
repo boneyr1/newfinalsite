@@ -17,11 +17,12 @@
 ### Open the 'Preposition Counter .r' and download it into RStudio
 ### Open the file in RStudio and create a vector with the strings you want
 ### Insert the vector in the function prepositions_counter()
-### The function will return the number of prepositions in the string
+### The function will return the number of prepositions in the string. It can linguists find the exact number of prepositions in a set of data
 
 ## Stringr Lesson
 ### The third tool is the 'Stringr Lesson' named 'lesson.yaml' in this repository 
 ### This is a user-friendly and interactive tool that can be used to teach linguists how to use the Stringr package in R
+### Stringr is useful to help researchers search for specific words or phrases in large sets of data
 ### To access the lesson, use this link: /Users/renb123/Stringr_Course.swc
 ### Copy and paste this into a new tab!
 ### You can install the course from the .swc file by downloading the file and then using the install_course() function in swirl
