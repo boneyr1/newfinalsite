@@ -13,7 +13,7 @@ prepositions_counter <- function(sentence) {
 #It will return the number of prepositions in the code
 #Example:
 
-y <- "Today he went out and about. He went above and beyond"
+y <- "Today he went out and about He went above and beyond"
 
 prepositions_counter(y)
 
