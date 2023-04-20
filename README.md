@@ -15,3 +15,12 @@
 ### Open the file in RStudio and create a vector with the strings you want
 ### Insert the vector in the function prepositions_counter()
 ### The function will return the number of prepositions in the string
+
+## Stringr Lesson
+### The third tool is the 'Stringr Lesson' named 'lesson.yaml' in this repository 
+### This is a user-friendly and interactive tool that can be used to teach linguists how to use the Stringr package in R
+### To access the lesson, use this link: /Users/renb123/Stringr_Course.swc
+### Copy and paste this into a new tab!
+### You can install the course from the .swc file by downloading the file and then using the install_course() function in swirl
+
+
