@@ -8,6 +8,7 @@
 ### The first tool I made is called 'Check Your Patient's Progress' and it is named 'app.R' in this repository 
 ### To use this ShinyApp, Users can upload a CSV file and can manipulate how the data appears in the table. Please make sure you upload a CSV file. It will not work for any other file type
 ### Users can create a graph from their uploaded CSV file and pick what variable what they will like to see on both the x-axis and y-axis. Please make sure you select variables with a NUMERIC value or else the graph will not work. The graph will be a scatter plot
+### You can access it here: https://reneeshinyapp.shinyapps.io/PatientProgress/ 
 
 ## Preposition Counter
 ### The second tool is the 'Preposition Counter' named 'Preposition Counter .r' in this repository
