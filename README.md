@@ -11,7 +11,7 @@
 ### You can access it here: https://reneeshinyapp.shinyapps.io/PatientProgress/ 
 
 ## Preposition Counter
-### The second tool is the 'Preposition Counter' named 'Preposition Counter .R' in this repository
+### The second tool is the 'Preposition Counter' named 'Preposition Counter.R' in this repository
 ### You can access it through this link: https://rpubs.com/boneyr1/1031591 
 ### Another way to access this: 
 ### Open the 'Preposition Counter .r' and download it into RStudio
